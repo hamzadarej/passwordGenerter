@@ -48,13 +48,14 @@ let Characters = [
 function passwordGen() {
   let result = "";
   let randomNum;
-  const results = document.querySelector("#passwordGen");
+  
   for (let i = 0; i <= 30; i++) {
     randomNum = Math.floor(Math.random() * Characters.length);
     result += Characters[randomNum];
   }
+ document.getElementById("PasswordGen").value=result;
   
-    results.innerHTML+=result;
+    console.log(result);
   
 };
-console.log(passwordGen());
+

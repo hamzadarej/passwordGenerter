@@ -23,8 +23,9 @@ body {
 }
 p {
   text-align: center;
-  border: black solid 2px;
+  
   margin: 1px;
+  margin: 5px auto;
   
 }
 .inputBox {

@@ -1,0 +1,63 @@
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  background: darkcyan;
+  width: 15rem;
+  height: 18rem;
+  display: grid;
+  grid-template-rows: 10% 25% 55% 10%;
+  grid-template-columns: 100%;
+  border: black 1px solid;
+  text-align: center;
+  
+  
+  
+ 
+}
+p {
+  text-align: center;
+  border: black solid 2px;
+  margin: 1px;
+  
+}
+.inputBox {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+}
+.inputBox input {
+  width: 11rem;
+  height: 3rem;
+ 
+}
+.checkboxes {
+    
+   
+    
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.checkIt {
+    display: flex;
+    
+    justify-content: space-between;
+    text-align: left;
+    height: 20px;
+    border: 1px solid gray;
+    width: 80%;
+}

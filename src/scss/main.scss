@@ -1,92 +1,77 @@
-
-
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-  }
-  .box {
-    background: darkcyan;
-    width: 15rem;
-    height: 18rem;
-    display: grid;
-    grid-template-rows: 10% 25% 50% 20%;
-    grid-template-columns: 100%;
-    border: black 1px solid;
-    text-align: center;
-    
-    
-    
-   
-  }
-  p {
-    text-align: center;
-    
-    margin: 1px;
-    margin: 5px auto;
-    
-  }
-  .inputBox {
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    border: none;
-   
-  }
-  .inputBox input {
-    width: 11rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    word-break: break-all;
-    border-radius: 10px;
-    border: 1px solid gray;
-   text-align: center;
-   color: black;
-  }
-  .checkboxes {
-      
-     
-      
-      height: 8rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-     
-      
-  }
-  .checkIt {
-      display: flex;
-      
-      justify-content: space-between;
-      text-align: left;
-      height: 20px;
-      border: 1px solid gray;
-      width: 80%;
-  }
-  footer {
-    height: 2rem;
-    
-  }
-  footer button {
-    width: 11rem;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-  }
-  footer button:focus {
-    border:1px solid white;
-  }
-  footer button:hover {
-    background-color: #FFFFFF33;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  background: darkcyan;
+  width: 15rem;
+  height: 18rem;
+  display: grid;
+  grid-template-rows: 10% 25% 50% 20%;
+  grid-template-columns: 100%;
+  border: black 1px solid;
+  text-align: center;
+}
+p {
+  text-align: center;
+
+  margin: 1px;
+  margin: 5px auto;
+}
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: none;
+}
+.inputBox input {
+  width: 11rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  word-break: break-all;
+  border-radius: 10px;
+  border: 1px solid gray;
+  text-align: center;
+  color: black;
+}
+.checkboxes {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.checkIt {
+  display: flex;
+
+  justify-content: space-between;
+  text-align: left;
+  height: 20px;
+
+  width: 80%;
+}
+footer {
+  height: 2rem;
+}
+footer button {
+  width: 11rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+footer button:focus {
+  border: 1px solid white;
+}
+footer button:hover {
+  background-color: #ffffff33;
+}

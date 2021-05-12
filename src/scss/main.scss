@@ -4,9 +4,10 @@ body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background-color: black;
 }
 .box {
-  background: darkcyan;
+  background: rgb(24, 153, 153);
   width: 15rem;
   height: 18rem;
   display: grid;
@@ -39,7 +40,9 @@ p {
   border-radius: 10px;
   border: 1px solid gray;
   text-align: center;
-  color: black;
+  color: darkcyan;
+  font-weight: bold;
+  
 }
 .checkboxes {
   height: 8rem;
@@ -57,6 +60,7 @@ p {
   height: 20px;
 
   width: 80%;
+  color: snow;
 }
 footer {
   height: 2rem;
@@ -74,4 +78,11 @@ footer button:focus {
 }
 footer button:hover {
   background-color: #ffffff33;
+}
+#length {
+  background-color: inherit;
+  color: inherit;
+  height: 20px;
+  width: 35px;
+
 }

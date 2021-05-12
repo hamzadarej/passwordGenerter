@@ -4,10 +4,11 @@ body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background-color: black;
 }
 
 .box {
-  background: darkcyan;
+  background: #189999;
   width: 15rem;
   height: 18rem;
   display: grid;
@@ -42,7 +43,8 @@ p {
   border-radius: 10px;
   border: 1px solid gray;
   text-align: center;
-  color: black;
+  color: darkcyan;
+  font-weight: bold;
 }
 
 .checkboxes {
@@ -59,8 +61,8 @@ p {
   justify-content: space-between;
   text-align: left;
   height: 20px;
-  border: 1px solid gray;
   width: 80%;
+  color: snow;
 }
 
 footer {
@@ -81,7 +83,14 @@ footer button:focus {
 }
 
 footer button:hover {
-  background-color: #FFFFFF33;
+  background-color: #ffffff33;
+}
+
+#length {
+  background-color: inherit;
+  color: inherit;
+  height: 20px;
+  width: 35px;
 }
 
 /*# sourceMappingURL=main.css.map */

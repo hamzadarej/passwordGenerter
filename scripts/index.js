@@ -3,32 +3,32 @@
 function passwordGen() {
   const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   const uppercase = [
-    "q",
-    "w",
-    "e",
-    "r",
-    "t",
-    "z",
-    "i",
-    "o",
-    "p",
-    "a",
-    "s",
-    "d",
-    "f",
-    "g",
-    "h",
-    "j",
-    "k",
-    "l",
-    "ö",
-    "ä",
-    "y",
-    "x",
-    "c",
-    "b",
-    "n",
-    "m",
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Z",
+    "U",
+    "I",
+    "P",
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    "Ö",
+    "Ä",
+    "Y",
+    "X",
+    "C",
+    "B",
+    "N",
+    "M",
   ];
   const lowercase = [
     "q",
@@ -90,8 +90,8 @@ function passwordGen() {
 
     console.log(Characters);
     const length = document.querySelector("#length").value;
-    for (let i = 0; i <= length - 1; i++) {
-      randomNum = Math.floor(Math.random() * length);
+    for (let i = 0; i <= length -1 ; i++) {
+      randomNum = Math.floor(Math.random() * Characters.length);
       result += Characters[randomNum];
     }
     document.getElementById("PasswordGen").value = result;
